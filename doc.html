@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BlackAdams</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <div class="container">
+        <nav class="nav">
+          <h1 class="logo">
+            <a href="index.html">Blackadam.</a>
+          </h1>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="features.html" class="nav__link">Features</a>
+            </li>
+            <li class="nav__item">
+              <a href="doc.html" class="nav__link">Doc</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <!-- Hero Section -->
+      <section id="doc-hero">
+        <div class="container doc__container">
+          <div class="hero__content-feature">
+            <h1 class="heading-1">Docs</h1>
+            <p class="text-body">
+              Learn how to work with the Blackadam platform
+            </p>
+          </div>
+          <img src="img/docs.png" alt="server" class="doc__hero-img" />
+        </div>
+      </section>
+
+      <!-- Docs -->
+      <section id="doc" class="container">
+        <div class="doc__item card">
+          <div class="doc__item-list">
+            <h3 class="my-1">Essentials</h3>
+            <ul class="doc__list">
+              <li class="doc__list-item">
+                <a href="#" class="list__link text-dark text-primary"
+                  >Introduction</a
+                >
+              </li>
+              <li class="doc__list-item">
+                <a href="#" class="list__link text-dark">About Blackadam</a>
+              </li>
+              <li class="doc__list-item">
+                <a href="#" class="list__link text-dark">Installation</a>
+              </li>
+            </ul>
+          </div>
+          <div class="doc__item-list">
+            <h3 class="my-1">Deployment</h3>
+            <ul class="doc__list">
+              <li class="doc__list-item">
+                <a href="#" class="nav__link text-dark"
+                  >Setting up a container</a
+                >
+              </li>
+              <li class="doc__list-item">
+                <a href="#" class="list__link text-dark">Using the CLI</a>
+              </li>
+              <li class="doc__list-item">
+                <a href="#" class="list__link text-dark">Managing resources</a>
+              </li>
+              <li class="doc__list-item">
+                <a href="#" class="list__link text-dark">Upgrade & downgrade</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="doc__item card">
+          <h2>Introduction</h2>
+          <p class="text-body-light">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+            illo facere perferendis laborum? Similique recusandae incidunt eos
+            dolorum aliquam ipsam unde perspiciatis laudantium totam quam
+            laborum velit, at maxime minus?
+          </p>
+          <div class="alert success">
+            <i class="fas fa-info"></i>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae,
+            animi?
+          </div>
+          <h3 class="heading-3 my-1">Lorem, ipsum dolor.</h3>
+          <p class="text-body-light">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima
+            totam magni eius vitae velit id, atque veritatis! At, vero porro.
+          </p>
+          <a href="#" class="btn btn__primary">Install CLI</a>
+          <h3 class="heading-3 my-1">Requirements</h3>
+          <ul>
+            <li class="fw-300">Windows 10, Mac OSX, Linux</li>
+            <li class="fw-300">Node.js v12 or higher</li>
+          </ul>
+          <h3 class="heading-3 my-1">Install</h3>
+          <div class="my-2">
+            <p class="my-2 fw-300">Mac (Homebrew)</p>
+            <pre><code>$ brew install blackadam-cli</code></pre>
+          </div>
+          <div class="my-2">
+            <p class="my-2 fw-300">NPM</p>
+            <pre><code>$ npm install blackadam-cli</code></pre>
+          </div>
+          <div>
+            <p class="my-2 fw-300">Yarn</p>
+            <pre><code>$ yarn install blackadam-cli</code></pre>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container footer__grid">
+        <div class="footer__grid-item footer__header">
+          <h2>BlackAdams.</h2>
+          <p>Copyright &copy; 2024</p>
+        </div>
+        <div class="footer__grid-item">
+          <ul>
+            <li><a href="#" class="footer__link">Home</a></li>
+            <li><a href="#" class="footer__link">Features</a></li>
+            <li><a href="#" class="footer__link">Doc</a></li>
+          </ul>
+        </div>
+        <div class="footer__grid-item footer__socials">
+          <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+          <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+          <a href="#"><i class="fab fa-github fa-2x"></i></a>
+          <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

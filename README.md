@@ -31,7 +31,7 @@ To use this component, follow these steps:
     ```
 2. Navigate to the project directory
    ```bash
-   cd blog-preview-card
+   cd blackdadm
    ```
 3. Open the ```index.html``` file.
 

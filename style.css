@@ -596,33 +596,6 @@ pre {
 }
 
 /* ========== Media Queries Home =======*/
-@media (min-width: 280px) and (max-width: 344px) {
-  .container {
-    max-width: 700px;
-    margin: 0 auto;
-    max-width: 100%;
-    padding: 0 1.5em;
-  }
-
-  #hero {
-    width: 100%;
-  }
-
-  .hero__content {
-    margin: 2em auto;
-    flex-direction: column;
-  }
-
-  .hero__title {
-    font-size: 1.7rem;
-  }
-
-  .hero__body {
-    max-width: 80%;
-    width: 250px;
-    margin: 0 auto;
-  }
-}
 
 @media (max-width: 768px) {
   .container {
@@ -668,15 +641,9 @@ pre {
     text-align: center;
   }
 
-  .hero__body {
-    max-width: 300px;
-    margin: auto;
-  }
-
   .form__card {
-    width: 350px;
-    margin: 0 auto;
-    max-width: 85%;
+    width: fit-content;
+    justify-self: center;
   }
 
   .form__group:last-child {
@@ -740,7 +707,7 @@ pre {
   }
 
   .hero__content {
-    margin: 3em auto 0;
+    margin: 3em auto;
     flex-direction: column;
     justify-content: center;
   }
@@ -750,9 +717,8 @@ pre {
   }
 
   .form__card {
-    width: 350px;
-    margin: 0 auto;
-    max-width: 95%;
+    width: fit-content;
+    justify-self: center;
   }
 
   .statistics__header {
